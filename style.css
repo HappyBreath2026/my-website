@@ -151,3 +151,38 @@ footer {
   margin-top: 20px;
   border-radius: 16px;
 }
+
+.city-work {
+  margin-top: 20px;
+}
+
+.city-work figcaption {
+  margin-top: 12px;
+  color: #cbd5e1;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.city-work figcaption strong {
+  display: block;
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.city-work figcaption span {
+  color: #94a3b8;
+}
+
+.project {
+  text-decoration: none;
+  color: inherit;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.project:hover {
+  transform: translateY(-4px);
+  background-color: #293548;
+}
